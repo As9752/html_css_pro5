@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    background-image: url(./developer.png);
+    width:100%;
+    min-height:100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text2{
+    background-color: white;
+    /* margin:0 auto; */
+}
+.text{
+    margin:0 auto;
+    text-align: center;
+    padding:6px 10px;
+    width:100%;
+    height:20vh;
+    background-color: black;
+}
+.titlename{
+    font-size: 60px;
+    text-shadow: 50px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.last{
+    font-size: 80px;
+}
+.work{
+    height:60vh;
+    background-color:brown;
+    display:flex;
+    grid-template-columns: repeat(auto-fit,minmax(320px.1fr));
+    margin:auto;
+    justify-content: space-between;
+}
+.work1{
+    margin:auto;
+    margin-top:30px;
+    width:400px;
+    height:20vh;
+    box-shadow: 3px 5px 5px;
+    color:grey;
+    /* border:2px solid red; */
+    background-repeat: no-repeat;
+    background-color:white;
+    /* justify-content: space-between; */
+}
+.work2{
+    background-image:url(./mobile.png);
+    margin:auto;
+    margin-top: 30px;
+    width:400px;
+    height:20vh;
+    color:grey;
+    /* border:2px solid red; */
+    background-repeat: no-repeat;
+    background-color:white;
+    /* justify-content: space-between; */
+}
+.work3{
+    background-image:url(./uiux.png);
+    margin:auto;
+    margin-top: 30px;
+    width:400px;
+    height:20vh;
+    /* border:2px solid red; */
+    color:grey;
+    background-repeat: no-repeat;
+    background-color:white;
+    /* justify-content: space-between; */
+}
+
+.text1{
+    color:white;
+    width:400px;
+    height:10vh;
+    margin-top: 60px;
+    word-wrap: break-word;
+}
+.profilename{
+    margin:auto;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+.image1:hover{
+    transform:scale(1.04);
+cursor:pointer;
+}
+.text1:hover{
+transform:scale(1.04);
+}
+.footer{
+    display:flex;
+    margin-top:20px;
+    box-shadow: 5px;
+}
+.firstfoo{
+    margin:0 auto;
+    width:100%;
+    height:35vh;
+    background-color:#515603;
+    padding:6px 12px;
+}
+.firstfoo:hover{
+    cursor:pointer;
+    transform:scale(1.05);
+}
+.secondfoo{
+    /* margin:0 auto; */
+    width:100%;
+    height:35vh;
+    background-color:#722300;
+    padding:6px 12px; 
+}
+.secondfoo:hover{
+    cursor:pointer;
+    transform:scale(1.05);
+}
+.copyright{
+    background-color: black;
+    width:100%;
+    height:10vh;
+    font-size: 30px;
+    color:orange;
+    margin-top:10px;
+
+}
